@@ -59,7 +59,8 @@ function PinInspector(tray) {
                     var pin = svg.getElementById(pin_id);
                     pin.style["fill"] = pin_class_colors[result.pin_classes[i].pin_class];
                 } catch (e) {
-                    alert("Pin id: " + result.pin_classes[i].connector + "_" + result.pin_classes[i].pin);
+                    //alert("Pin id: " + result.pin_classes[i].connector + "_" + result.pin_classes[i].pin);
+                    console.log("Pin id: " + result.pin_classes[i].connector + "_" + result.pin_classes[i].pin);
                 }
             }
         });
