@@ -10,5 +10,4 @@ Installation:
 
 Running (powershell):
 - pipenv shell
-- $env:FLASK_APP="agc_pins:app"
-- flask run
+- ./run.sh
